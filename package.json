@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "client-install": "cd front-end && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.ts",
+    "client": "cd front-end && npm start",
+    "dev": "concurrently  --kill-others \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "*",
+    "mysql": "*",
+    "neo4j-driver": "^1.7.2",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

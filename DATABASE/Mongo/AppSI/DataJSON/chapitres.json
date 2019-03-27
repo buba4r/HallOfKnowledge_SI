@@ -1,0 +1,110 @@
+{ 
+    "_id" : ObjectId("5c6726007a7d0a33f8366267"), 
+    "contenu" : "Contenu Chapitre 1", 
+    "titre" : "Chapitre_1"
+}
+{ 
+    "_id" : ObjectId("5c7f9cffd2c0e9e867807a52"), 
+    "titre" : "Chapitre 1 Installer les outils de développement", 
+    "contenu" : " L'un des principes phares de Java réside dans sa machine virtuelle : celle-ci assure à tous les développeurs Java qu'un programme sera utilisable avec tous les systèmes d'exploitation sur lesquels est installée une machine virtuelle Java. Lors de la phase de compilation de notre code source, celui-ci prend une forme intermédiaire appelée byte code : c'est le fameux code inintelligible pour votre machine, mais interprétable par la machine virtuelle Java. Cette dernière porte un nom : on parle plus communément de JRE (Java Runtime Environment). Plus besoin de se soucier des spécificités liées à tel ou tel OS (Operating System, soit système d'exploitation). Nous pourrons donc nous consacrer entièrement à notre programme. Afin de nous simplifier la vie, nous allons utiliser un outil de développement, ou IDE (Integrated Development Environment), pour nous aider à écrire nos futurs codes source… Nous allons donc avoir besoin de différentes choses afin de pouvoir créer des programmes Java : la première est ce fameux JRE !"
+}
+{ 
+    "_id" : ObjectId("5c7f9cffd2c0e9e867807a53"), 
+    "titre" : "Chapitre 2 Créez des variables et des opérateurs", 
+    "contenu" : " Nous commençons maintenant sérieusement la programmation. Dans ce chapitre, nous allons découvrir les variables. On les retrouve dans la quasi-totalité des langages de programmation. Une variable est un élément qui stocke des informations de toute sorte en mémoire : des chiffres, des résultats de calcul, des tableaux, des renseignements fournis par l'utilisateur… Vous ne pourrez pas programmer sans variables. Il est donc indispensable que je vous les présente !"
+}
+{ 
+    "_id" : ObjectId("5c7f9d00d2c0e9e867807a54"), 
+    "titre" : "Chapitre 3 Apprenez à lire les entrées clavier", 
+    "contenu" : " Après la lecture de ce chapitre, vous pourrez saisir des informations et les stocker dans des variables afin de pouvoir les utiliser a posteriori. En fait, jusqu'à ce que nous voyions les interfaces graphiques, nous travaillerons en mode console. Donc, afin de rendre nos programmes plus ludiques, il est de bon ton de pouvoir interagir avec ceux-ci. Par contre, ceci peut engendrer des erreurs (on parlera d'exceptions, mais ce sera traité plus loin). Afin de ne pas surcharger le chapitre, nous survolerons ce point sans voir les différents cas d'erreurs que cela peut engendrer."
+}
+{ 
+    "_id" : ObjectId("5c7f9d00d2c0e9e867807a55"), 
+    "titre" : "Chapitre 1 Créez votre première classe", 
+    "contenu" : " Dans la première partie de cet ouvrage sur la programmation en Java, nous avons travaillé avec une seule classe. Vous allez apprendre qu'en faisant de la programmation orientée objet, nous travaillerons en fait avec de nombreuses classes. Rappelez-vous la première partie : vous avez déjà utilisé des objets… Oui ! Lorsque vous faisiez ceci :String str = new String(). Icistrest un objetString. Vous avez utilisé un objet de la classeString: on dit que vous avez créé une instance de la classeString(). Le moment est venu pour vous de créer vos propres classes."
+}
+{ 
+    "_id" : ObjectId("5c7f9d01d2c0e9e867807a56"), 
+    "titre" : "Chapitre 2 Gérez les héritages", 
+    "contenu" : " Je vous arrête tout de suite, vous ne toucherez rien. Pas de rapport d'argent entre nous ! :) Non, la notion d'héritage en programmation est différente de celle que vous connaissez, bien qu'elle en soit tout de même proche. C'est l'un des fondements de la programmation orientée objet ! Imaginons que, dans le programme réalisé précédemment, nous voulions créer un autre type d'objet : des objetsCapitale. Ceux-ci ne seront rien d'autre que des objetsVilleavec un paramètre en plus... disons un monument. Vous n'allez tout de même pas recoder tout le contenu de la classeVilledans la nouvelle classe ! Déjà, ce serait vraiment contraignant, mais en plus, si vous aviez à modifier le fonctionnement de la catégorisation de nos objetsVille, vous auriez aussi à effectuer la modification dans la nouvelle classe… Ce n'est pas terrible. Heureusement, l'héritage permet à des objets de fonctionner de la même façon que d'autres."
+}
+{ 
+    "_id" : ObjectId("5c7f9d02d2c0e9e867807a57"), 
+    "titre" : "Chapitre 3 Modélisez ses objets grâce à UML", 
+    "contenu" : " Dans ce chapitre, nous allons découvrir le principe de modélisation d'objet. Le sigle « UML » signifie Unified Modeling Language, que l'on peut traduire par « langage de modélisation unifié ». Il ne s'agit pas d'un langage de programmation, mais plutôt d'une méthode de modélisation. La méthode Merise, par exemple, en est une autre. En fait, lorsque vous programmez en orienté objet, il vous sera sans doute utile de pouvoir schématiser vos classes, leur hiérarchie, leurs dépendances, leur architecture, etc. L'idée est de pouvoir, d'un simple coup d'œil, vous représenter le fonctionnement de votre logiciel : imaginez UML un peu comme une partition de musique pour le musicien. Le but de ce chapitre n'est pas de vous transformer en experts UML, mais de vous donner suffisamment de bases pour mieux appréhender la modélisation et ensuite bien cerner certains concepts de la POO."
+}
+{ 
+    "_id" : ObjectId("5c7f9d03d2c0e9e867807a58"), 
+    "titre" : "Chapitre 1 Créez votre première fenêtre", 
+    "contenu" : " Dans cette partie, nous aborderons les interfaces graphiques (on parle aussi d'IHMpourInterfacesHommeMachine ou deGUIpourGraphicalUserInterfaces) et, par extension, la programmation événementielle. Par là, vous devez comprendre que votre programme ne réagira plus à des saisies au clavier mais à des événements provenant d'un composant graphique : un bouton, une liste, un menu. Le langage Java propose différentes bibliothèques pour programmer des IHM, mais dans cet ouvrage, nous utiliserons essentiellement les packagesjavax.swingetjava.awtprésents d'office dans Java. Ce chapitre vous permettra d'apprendre à utiliser l'objetJFrame, présent dans le packagejavax.swing. Vous serez alors à même de créer une fenêtre, de définir sa taille, etc. Le fonctionnement de base des IHM vous sera également présenté et vous apprendrez qu'en réalité, une fenêtre n'est qu'une multitude de composants posés les uns sur les autres et que chacun possède un rôle qui lui est propre. Mais trêve de bavardages inutiles, commençons tout de suite !"
+}
+{ 
+    "_id" : ObjectId("5c7f9d04d2c0e9e867807a59"), 
+    "titre" : "Chapitre 2 Créez votre propre animation", 
+    "contenu" : " Dans ce chapitre, nous allons voir comment créer une animation simple. Il ne vous sera pas possible de réaliser un jeu au terme de ce chapitre, mais je pense que vous y trouverez de quoi vous amuser un peu. Nous réutiliserons cette animation dans plusieurs chapitres de cette troisième partie afin d'illustrer le fonctionnement de divers composants graphiques. L'exemple est rudimentaire, mais il a l'avantage d'être efficace et de favoriser votre apprentissage de la programmation événementielle. Je sens que vous êtes impatients de commencer alors… allons-y !"
+}
+{ 
+    "_id" : ObjectId("5c7f9d04d2c0e9e867807a5a"), 
+    "titre" : "Chapitre 3 Positionnez des boutons", 
+    "contenu" : " Voici l'un des moments que vous attendiez avec impatience ! Vous allez enfin pouvoir utiliser un bouton dans votre application. Cependant, ne vous réjouissez pas trop vite : vous allez effectivement insérer un bouton, mais vous vous rendrez rapidement compte que les choses se compliquent dès que vous employez ce genre de composant… Et c'est encore pire lorsqu'il y en a plusieurs ! Avant de commencer, nous devrons apprendre à positionner des composants dans une fenêtre. Il nous faut en effet gérer la façon dont le contenu est affiché dans une fenêtre."
+}
+{ 
+    "_id" : ObjectId("5c7f9d05d2c0e9e867807a5b"), 
+    "titre" : "Chapitre 1 Découvrez Python", 
+    "contenu" : " Vous avez décidé d'apprendre le Python et je ne peux que vous en féliciter. J'essayerai d'anticiper vos questions et de ne laisser personne en arrière. Dans ce chapitre, je vais d'abord vous expliquer ce qu'est un langage de programmation. Nous verrons ensuite brièvement l'histoire de Python, afin que vous sachiez au moins d'où vient ce langage ! Ce chapitre est théorique mais je vous conseille vivement de le lire quand même. La dernière section portera sur l'installation de Python, une étape essentielle pour continuer ce tutoriel. Que vous travailliez avec Windows, Linux ou Mac OS X, vous y trouverez des explications précises sur l'installation."
+}
+{ 
+    "_id" : ObjectId("5c7f9d05d2c0e9e867807a5c"), 
+    "titre" : "Chapitre 2 Faites vos premiers pas avec l'interpréteur de commandes Python", 
+    "contenu" : " Après les premières notions théoriques et l'installation de Python, il est temps de découvrir un peu l'interpréteur de commandes de ce langage. Même si ces petits tests vous semblent anodins, vous découvrirez dans ce chapitre les premiers rudiments de la syntaxe du langage et je vous conseille fortement de me suivre pas à pas, surtout si vous êtes face à votre premier langage de programmation. Comme tout langage de programmation, Python a une syntaxe claire : on ne peut pas lui envoyer n'importe quelle information dans n'importe quel ordre. Nous allons voir ici ce que Python mange… et ce qu'il ne mange pas."
+}
+{ 
+    "_id" : ObjectId("5c7f9d06d2c0e9e867807a5d"), 
+    "titre" : "Chapitre 1 Créez votre premier objet : les chaînes de caractères", 
+    "contenu" : " J'aurai réussi à vous faire connaître et, j'espère, aimer le langage Python sans vous apprendre les listes. Mais allons ! Cette époque est révolue. Maintenant que nous commençons à étudier l'objet sous toutes ses formes, je ne vais pas pouvoir garder le secret plus longtemps : il existe des listes en Python. Pour ceux qui ne voient même pas de quoi je parle, vous allez vite vous rendre compte qu'avec les dictionnaires (que nous verrons plus loin), c'est un type, ou plutôt une classe, dont on aura du mal à se passer. Les listes sont des séquences. En fait, leur nom est plutôt explicite, puisque ce sont des objets capables de contenir d'autres objets de n'importe quel type. On peut avoir une liste contenant plusieurs nombres entiers (1, 2, 50, 2000 ou plus, peu importe), une liste contenant des flottants, une liste contenant des chaînes de caractères... et une liste mélangeant ces objets de différents types."
+}
+{ 
+    "_id" : ObjectId("5c7f9d07d2c0e9e867807a5e"), 
+    "titre" : "Chapitre 2 Créez des listes et des tuples (1/2)", 
+    "contenu" : " Les listes sont très utilisées en Python. Elles sont liées à pas mal de fonctionnalités, dont certaines plutôt complexes. Aussi ai-je préféré scinder l'approche des listes en deux chapitres. Vous allez voir dans celui-ci quelques fonctionnalités qui ne s'appliquent qu'aux listes et aux tuples, et qui pourront vous être extrêmement utiles. Je vous conseille donc, avant tout, d'être bien à l'aise avec les listes et leur création, parcours, édition, suppression… D'autre part, comme pour la plupart des sujets abordés, je ne peux faire un tour d'horizon exhaustif de toutes les fonctionnalités de chaque objet présenté. Je vous invite donc à lire la documentation, en tapanthelp(list), pour accéder à une liste exhaustive des méthodes."
+}
+{ 
+    "_id" : ObjectId("5c7f9d07d2c0e9e867807a5f"), 
+    "titre" : "Vous avez dit programmer ?", 
+    "contenu" : " Vous avez déjà entendu parler de programmation et nul doute que si vous avez ce livre entre les mains, c'est parce que vous voulez « enfin » comprendre comment ça fonctionne. Mais programmer en langage C… ça veut dire quoi ? Est-ce que c'est bien pour commencer ? Est-ce que vous avez le niveau pour programmer ? Est-ce qu'on peut tout faire avec ? Ce chapitre a pour but de répondre à toutes ces questions apparemment bêtes et pourtant très importantes. Grâce à ces questions simples, vous saurez à la fin de ce premier chapitre ce qui vous attend. C'est quand même mieux de savoir à quoi sert ce que vous allez apprendre, vous ne trouvez pas ?"
+}
+{ 
+    "_id" : ObjectId("5c7f9d08d2c0e9e867807a60"), 
+    "titre" : "Chapitre 2 Ayez les bons outils !", 
+    "contenu" : " Après un premier chapitre plutôt introductif, nous commençons à entrer dans le vif du sujet. Nous allons répondre à la question suivante : « De quels logiciels a-t-on besoin pour programmer ? ».Il n'y aura rien de difficile à faire dans ce chapitre, on va prendre le temps de se familiariser avec de nouveaux logiciels. Profitez-en ! Dans le chapitre suivant, nous commencerons à vraiment programmer et il ne sera plus l'heure de faire la sieste !"
+}
+{ 
+    "_id" : ObjectId("5c7f9d09d2c0e9e867807a61"), 
+    "titre" : "La programmation modulaire", 
+    "contenu" : " Dans cette seconde partie, nous allons découvrir des concepts plus avancés du langage C. Je ne vous le cache pas, et vous vous en doutiez sûrement, la partie II est d'un cran de difficulté supérieur. Lorsque vous serez arrivés à la fin de cette partie, vous serez capables de vous débrouiller dans la plupart des programmes écrits en C. Dans la partie suivante nous verrons alors comment ouvrir une fenêtre, créer des jeux 2D, etc. Jusqu'ici nous n'avons travaillé que dans un seul fichier appelémain.c. Pour le moment c'était acceptable car nos programmes étaient tout petits, mais ils vont bientôt être composés de dizaines, que dis-je de centaines de fonctions, et si vous les mettez toutes dans un même fichier celui-là va finir par devenir très long ! C'est pour cela que l'on a inventé ce qu'on appelle la programmation modulaire. Le principe est tout bête : plutôt que de placer tout le code de notre programme dans un seul fichier (main.c), nous le « séparons » en plusieurs petits fichiers."
+}
+{ 
+    "_id" : ObjectId("5c7f9d09d2c0e9e867807a62"), 
+    "titre" : "A l'assaut des pointeurs", 
+    "contenu" : " L'heure est venue pour vous de découvrir les pointeurs. Prenez un grand bol d'air avant car ce chapitre ne sera probablement pas une partie de plaisir. Les pointeurs représentent en effet une des notions les plus délicates du langage C. Si j'insiste autant sur leur importance, c'est parce qu'il est impossible de programmer en langage C sans les connaître et bien les comprendre. Les pointeurs sont omniprésents, nous les avons d'ailleurs déjà utilisés sans le savoir. Nombre de ceux qui apprennent le langage C titubent en général sur les pointeurs. Nous allons faire en sorte que ce ne soit pas votre cas. Redoublez d'attention et prenez le temps de comprendre les nombreux schémas de ce chapitre."
+}
+{ 
+    "_id" : ObjectId("5c7f9d0ad2c0e9e867807a63"), 
+    "titre" : "Chapitre 1 Découvrez le fonctionnement des sites web", 
+    "contenu" : " Bonjour et bienvenue à toutes et à tous ! Voici donc le premier chapitre de ce cours pour débutants, qui va vous apprendre à créer votre site web ! Nous allons passer un certain temps ensemble, tout dépendra de la vitesse à laquelle vous apprendrez. Si vous lisez ce cours régulièrement et à une bonne vitesse, vous l'aurez terminé en une à deux semaines. Mais si vous avez besoin d'un peu plus de temps, ne vous inquiétez pas : le principal est que vous y alliez à votre rythme, de préférence en prenant du bon temps. Je vous propose de commencer par la question la plus simple mais aussi la plus importante : comment fonctionnent les sites web ?"
+}
+{ 
+    "_id" : ObjectId("5c7f9d0bd2c0e9e867807a64"), 
+    "titre" : "Chapitre 2 Créez votre première page web en HTML", 
+    "contenu" : " Ça y est, vous avez installé tous les logiciels ? Vous devriez maintenant avoir un éditeur de texte pour créer votre site (comme Sublime Text) et plusieurs navigateurs pour le tester (Mozilla Firefox, Google Chrome…). Dans ce chapitre, nous allons commencer à pratiquer ! Nous allons découvrir les bases du langage HTML et enregistrer notre toute première page web ! Alors oui, bien sûr, ne vous attendez pas encore à réaliser une page web exceptionnelle dès ce second chapitre, mais patience… cela viendra !"
+}
+{ 
+    "_id" : ObjectId("5c7f9d0bd2c0e9e867807a65"), 
+    "titre" : "Chapitre 1 Mettez en place le CSS", 
+    "contenu" : " Après avoir passé toute une première partie du cours à ne travailler que sur le HTML, nous allons maintenant découvrir le CSS que j'avais volontairement mis à l'écart. Le CSS n'est pas plus compliqué que le HTML. Il vient le compléter pour vous aider à mettre en forme votre page web. Dans ce premier chapitre sur le CSS, nous allons voir la théorie sur le CSS : qu'est-ce que c'est ? À quoi cela ressemble-t-il ? Où est-ce qu'on écrit du code CSS ? Ces aspects théoriques ne sont pas bien compliqués mais vous devez obligatoirement les connaître car c'est la base du CSS. C'est d'ailleurs la seule chose que je vous demanderai de retenir par cœur en CSS, vous pourrez retrouver le reste dans le mémo en annexe. Allez, ne traînons pas, je vois que vous brûlez d'impatience !"
+}
+{ 
+    "_id" : ObjectId("5c7f9d0ed2c0e9e867807a66"), 
+    "titre" : "Chapitre 2 Formatez du texte", 
+    "contenu" : " Nous arrivons maintenant à un chapitre qui devrait beaucoup vous intéresser. Non, le « formatage du texte » n'a rien à voir avec la destruction de toutes les données présentes sur votre disque dur ! Cela signifie simplement que l'on va modifier l'apparence du texte (on dit qu'on le « met en forme »). Pas de surprise particulière : nous sommes toujours dans le CSS et nous allons réutiliser ce que nous venons d'apprendre dans le chapitre précédent. Nous allons donc travailler directement au sein du fichier.cssque nous avons créé.Ce chapitre va être l'occasion de découvrir de nombreuses propriétés CSS : nous allons voir comment modifier la taille du texte, changer la police, aligner le texte…"
+}

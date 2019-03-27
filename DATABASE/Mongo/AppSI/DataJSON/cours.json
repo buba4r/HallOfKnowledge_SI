@@ -1,0 +1,56 @@
+{ 
+    "_id" : ObjectId("5c7f99a499a608a560a2afdd"), 
+    "theme" : "Informatique", 
+    "titre" : "Java", 
+    "auteur" : "Michael Kerboeuf", 
+    "description" : "Ce cours est une initiation aux principes de conception et de programmation objet avec le langage Java. À l'issu de ce cours, les constructions du langage doivent être maîtrisés. Les actions élémentaires du compilateur et de la machine virtuelle doivent être connus. Certains principes fondamentaux de conception objet doivent également être acquis. Ils doivent pouvoirs être mis en pratique naturellement en Java. La programmation objet avec le langage Java est abordée dans ce cours du point de vue d'un programmeur C. Les notions élémentaires d'algorithmique procédurale et de programmation C sont donc requises pour aborder ce cours (e.g. types, variables, classes d'allocation, instructions, structures de contrôle, appel de fonctions et passages de paramètres). Dans un premier temps, elles sont rappelées et placées dans le contexte particulier du langage Java. Dans un deuxième temps, la programmation objet proprement dite est détaillée. La programmation événementielle pour le développement d'IHM, la programmation réseau avec les sockets, ou encore l'accès aux bases de données avec JDBC sont des usages avancés du langage Java et de son API. Ils ne sont pas traités dans ce cours d'initiation. La dernière partie du cours est consacrée aux principaux outils de développement associés à Java : outils de tests unitaires et de non-régression, générateurs de documentation, outils de contrôle de la qualité du code, et outils de travail collaboratif.", 
+    "objectifs" : "Apprendre à programmer en Java"
+}
+{ 
+    "_id" : ObjectId("5c7f99ad99a608a560a2afe3"), 
+    "theme" : "Informatique", 
+    "titre" : "Python", 
+    "auteur" : "Vincent Le Goff", 
+    "description" : "Vous n'y connaissez rien en programmation et vous souhaitez apprendre un langage clair et intuitif ? Ce cours d’initiation à Python est fait pour vous ! Et comme le veut la coutume ici-bas, on démarre de zéro, dans la joie et la bonne humeur. Ainsi, si vous n'avez jamais programmé en quelque langage que ce soit, si vous ne savez que très vaguement ce que programmer signifie, vous ferez le bon choix en choisissant Python pour commencer votre apprentissage.", 
+    "objectifs" : "Apprendre à programmer en Python"
+}
+{ 
+    "_id" : ObjectId("5c7f9a4599a608a560a2b04d"), 
+    "theme" : "Informatique", 
+    "titre" : "C", 
+    "auteur" : "Frank Hecht", 
+    "description" : "Ce langage de programmation est à la base des systèmes d'exploitations que nous connaissons aujourd'hui ou au moins du noyau de ces systèmes comme par exemple Unix/Linux. Le Langage C a justement été créé pour un seul et unique but au départ, développer un système d'exploitation (Unix) mais au fil du temps, grâce à sa puissance, il a été adopté par une large communauté de développeurs ce qui a permis au langage d'évoluer et surtout d'être standardisé.", 
+    "objectifs" : "Apprendre à programmer en C"
+}
+{ 
+    "_id" : ObjectId("5c7f9a5099a608a560a2b054"), 
+    "theme" : "Informatique", 
+    "titre" : "Html5/Css3", 
+    "auteur" : "Mathieu Nebra", 
+    "description" : "Vous souhaitez créer vos propres sites web ? Vous êtes au bon endroit ! Dans ce cours, vous apprendrez comment utiliser HTML5 et CSS3, les deux langages de programmation à la base de tous les sites web.", 
+    "objectifs" : "Apprendre à coder en HTML5/Css3"
+}
+{ 
+    "_id" : ObjectId("5c7f9a5b99a608a560a2b058"), 
+    "theme" : "Economie", 
+    "titre" : "Economie d'entreprise", 
+    "auteur" : "Christine Le Gall", 
+    "description" : "Une entreprise peut d’abord être définie comme l’action d’entreprendre, c’est à dire comme une initiative, une action conduite de façon volontaire et organisée en vue d’atteindre un objectif économique ou social (ou plus général parfois). Dans l’usage qui prévaut aujourd’hui, l’entreprise est surtout considérée comme une organisation relativement autonome, dotée de ressources humaines, matérielles et financières en vue d’exercer une activité économique de façon stable et structurée (ce qui permet d’écarter toutes les activités ponctuelles non.", 
+    "objectifs" : "Découvrir les concepts de base de l'entreprise"
+}
+{ 
+    "_id" : ObjectId("5c7f9a6499a608a560a2b060"), 
+    "theme" : "Biologie", 
+    "titre" : "Introduction à la biologie molléculaire", 
+    "auteur" : "Paul Pogba", 
+    "description" : "La biologie moléculaire (parfois abrégée bio. mol.) est une discipline scientifique au croisement de la génétique, de la biochimie et de la physique, dont l'objet est la compréhension des mécanismes de fonctionnement de la cellule au niveau moléculaire. Le terme « biologie moléculaire », utilisé la première fois en 1938 par Warren Weaver, désigne également l'ensemble des techniques de manipulation d'acides nucléiques (ADN, ARN), appelées aussi techniques de génie génétique. La biologie moléculaire est apparue au XXe siècle, à la suite de l'élaboration des lois de la génétique, la découverte des chromosomes et l'identification de l'ADN comme support chimique de l'information génétique. ", 
+    "objectifs" : "Ce cours sert d'introduction à la biologie molléculaire et à ses concepts."
+}
+{ 
+    "_id" : ObjectId("5c7f9a7199a608a560a2b066"), 
+    "theme" : "STAPS", 
+    "titre" : "Anatomie", 
+    "auteur" : "Paula Schumann", 
+    "description" : "L'anatomie descriptive est l'étude macroscopique des différentes structures du corps humain , c'est-à-dire visible, par opposition à l'étude microscopique ou histologique. Dans le corps humain on dénombre traditionnellement 206 os, 639 muscles (dont 570 muscles striés, le myocarde et les muscles lisses) et 360 articulations. Le corps humain s'étudie dans une position anatomique de référence. Dans celle-ci, le sujet se tient debout jambes tendues, pieds parallèles, tête droite, bras tendus le long du corps avec les paumes des mains tournées vers l'avant (ainsi les deux os de l'avant bras sont parallèles). C'est à partir de cette position que sont définies dans l'espace les différentes positions et directions.", 
+    "objectifs" : "L'anatomie est un des premiers cours de base que l'étudiant doit maîtriser, cette partira lui servira à mieux comprendre l'agencement du corps humain"
+}

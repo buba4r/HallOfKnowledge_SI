@@ -1,0 +1,195 @@
+{ 
+    "_id" : ObjectId("5c6725baedda5740bc639118"), 
+    "titre" : "Partie_1"
+}
+{ 
+    "_id" : ObjectId("5c7efc3f99a608a560a2904c"), 
+    "titre" : "Partie_2"
+}
+{ 
+    "_id" : ObjectId("5c7efc6599a608a560a29063"), 
+    "titre" : "Partie_3"
+}
+{ 
+    "_id" : ObjectId("5c7f9bded2c0e9e867807a45"), 
+    "titre" : "Introduction à l'informatique et à la notion d'algorithmique", 
+    "quiz" : {
+        "titre" : "Initiation à la programmation", 
+        "question" : [
+            {
+                "question 1" : "Qu'est ce qu'un langage ?"
+            }, 
+            {
+                "question 2" : "Qu'est ce qu'un algorithme ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9bdfd2c0e9e867807a46"), 
+    "titre" : "Partie 1 Bien commencer en Java", 
+    "quiz" : {
+        "titre" : "Comprenez les bases en Java", 
+        "question" : [
+            {
+                "question 1" : "Qu'est ce qu'un IDE"
+            }, 
+            {
+                "question 2" : "Qu'est ce qu'un JRE"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9bdfd2c0e9e867807a47"), 
+    "titre" : "Partie 2 Java Orienté Objet", 
+    "quiz" : {
+        "titre" : "Modélisez une solution objet", 
+        "question" : [
+            {
+                "question 1" : "Quel mot-clé doit-on utiliser pour instancier un objet ?"
+            }, 
+            {
+                "question 2" : "Avec quel mot-clé peut-on restrindre l'étendue d'une variable, d'une méthode ou d'une classe ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be0d2c0e9e867807a48"), 
+    "titre" : "Partie 3 Java et la programmation évenementielle", 
+    "quiz" : {
+        "titre" : "Modélisez une solution objet", 
+        "question" : [
+            {
+                "question 1" : "Quels packages avons-nous utilisés pour créer et gérer les interfaces graphiques ?"
+            }, 
+            {
+                "question 2" : "Dans quel package trouve-t-on les objets JFrame, JPanel, JButton,etc. ?"
+            }, 
+            {
+                "question 3" : "Dans quel package trouve-t-on les interfaces permettant d'interagir avec les composants graphiques swing ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be0d2c0e9e867807a49"), 
+    "titre" : "Partie 1 Faites vos premiers pas en Python", 
+    "quiz" : {
+        "titre" : "Comprenez les bases du langage Python", 
+        "question" : [
+            {
+                "question 1" : "Après ces instructions, de quel type est la variable c ?"
+            }, 
+            {
+                "question 2" : "Quelle est la variable de type str (chaîne de caractères) parmi les choix suivants ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be1d2c0e9e867807a4a"), 
+    "titre" : "Partie 2 Découvrez la Programmation Orientée Objet côté utilisateur", 
+    "quiz" : {
+        "titre" : "Maîtriser les règles de base du langage Python", 
+        "question" : [
+            {
+                "question 1" : "Que renverra l'instruction suivante, partant du principe que la variable chaine contient une chaîne de caractères (classe str)"
+            }, 
+            {
+                "question 2" : "Appeler une méthode de la classe str (chaîne de caractères) modifie-t-elle la chaîne ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be2d2c0e9e867807a4b"), 
+    "titre" : "Partie 1 Les bases de la programmation en C", 
+    "quiz" : {
+        "titre" : "Améliorez le jeu du Pus ou Moins", 
+        "question" : [
+            {
+                "question 1" : "Après ces instructions, de quel type est la variable c ?"
+            }, 
+            {
+                "question 2" : "Quelle est la variable de type char (chaîne de caractères) parmi les choix suivants ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be3d2c0e9e867807a4d"), 
+    "titre" : "Partie 1 Découvrez les bases de HTML5", 
+    "quiz" : {
+        "titre" : "Utiliser du code HTML", 
+        "question" : [
+            {
+                "question 1" : "Quel est le rôle du navigateur web ?"
+            }, 
+            {
+                "question 2" : "Lequel de ces éléments rencontre-t-on en premeir dans un code HTML ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be3d2c0e9e867807a4e"), 
+    "titre" : "Partie 2 Mettez en forme vos pages avec CSS", 
+    "quiz" : {
+        "titre" : "Utilsier du code CSS", 
+        "question" : [
+            {
+                "question 1" : "Que doit-on écrire en CSS pour appliquer un style aux balises de titre de niveau 2 et 3 ?"
+            }, 
+            {
+                "question 2" : "Quelle est la particularité de l'attribut class par rapport à l'attribut id ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be4d2c0e9e867807a4f"), 
+    "titre" : "Partie 1 Introduction à l'économie", 
+    "quiz" : {
+        "titre" : "Les bases de l'économie", 
+        "question" : [
+            {
+                "question 1" : "Qu'est-ce que l'économie ?"
+            }, 
+            {
+                "question 2" : "Qu'est-ce qu'un marché du travail ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be5d2c0e9e867807a50"), 
+    "titre" : "Partie 1 Bases de la préparation physique à l'entraînement", 
+    "quiz" : {
+        "titre" : "Les bases de la préparation physique", 
+        "question" : [
+            {
+                "question 1" : "Combien de minutes faut-il s'échauffer idéalement ?"
+            }, 
+            {
+                "question 2" : "Quel est le moyen optimal pour échauffer ses quadriceps ?"
+            }
+        ]
+    }
+}
+{ 
+    "_id" : ObjectId("5c7f9be7d2c0e9e867807a51"), 
+    "titre" : "Partie 1 Les divisions cellulaires", 
+    "quiz" : {
+        "titre" : "Les bases des divisions cellulaires", 
+        "question" : [
+            {
+                "question 1" : "Qu'est ce que la mitose ?"
+            }, 
+            {
+                "question 2" : "Qu'est-ce que la meillose ? ?"
+            }
+        ]
+    }
+}

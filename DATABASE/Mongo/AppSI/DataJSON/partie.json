@@ -1,0 +1,15 @@
+{ 
+    "_id" : ObjectId("5c7f9be2d2c0e9e867807a4c"), 
+    "titre" : "Partie 2 Techniques avancées du langage C", 
+    "quiz" : {
+        "titre" : "Améliorez le jeu du Pus ou Moins", 
+        "question" : [
+            {
+                "question 1" : "Après ces instructions, de quel type est la variable c ?"
+            }, 
+            {
+                "question 2" : "Quelle est la variable de type char (chaîne de caractères) parmi les choix suivants ?"
+            }
+        ]
+    }
+}

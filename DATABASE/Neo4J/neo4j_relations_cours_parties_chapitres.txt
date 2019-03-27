@@ -1,0 +1,72 @@
+#################### Cours ~ Partie Relation ####################
+-------
+MATCH (c01:ABFM_Cours {titre: "Html5/Css3"}), (p01:ABFM_Partie {titre: "Partie 1 Découvrez les bases de HTML5"}), (p02:ABFM_Partie {titre: "Partie 2 Mettez en forme vos pages avec CSS"}),(p03:ABFM_Partie {titre: "Introduction à l'informatique et à la notion d'algorithmique"})
+MERGE (c01)-[:ABFM_HAS]->(p01)
+MERGE (c01)-[:ABFM_HAS]->(p02)
+MERGE (c01)-[:ABFM_HAS]->(p03)
+-------
+MATCH (c02:ABFM_Cours {titre: "C"}), (p04:ABFM_Partie {titre: "Introduction à l'informatique et à la notion d'algorithmique"}), (p05:ABFM_Partie {titre: "Partie 1 Les bases de la programmation en C"}),(p06:ABFM_Partie {titre: "Partie 2 Techniques avancées du langage C"})
+MERGE (c02)-[:ABFM_HAS]->(p04)
+MERGE (c02)-[:ABFM_HAS]->(p05)
+MERGE (c02)-[:ABFM_HAS]->(p06)
+-------
+MATCH (c03:ABFM_Cours {titre: "Python"}), (p07:ABFM_Partie {titre: "Introduction à l'informatique et à la notion d'algorithmique"}), (p08:ABFM_Partie {titre: "Partie 1 Faites vos premiers pas en Python"}),(p09:ABFM_Partie {titre: "Partie 2 Découvrez la Programmation Orientée Objet côté utilisateur"})
+MERGE (c03)-[:ABFM_HAS]->(p07)
+MERGE (c03)-[:ABFM_HAS]->(p08)
+MERGE (c03)-[:ABFM_HAS]->(p09)
+-------
+MATCH (c04:ABFM_Cours {titre: "Java"}), (p10:ABFM_Partie {titre: "Introduction à l'informatique et à la notion d'algorithmique"}), (p11:ABFM_Partie {titre: "Partie 1 Bien commencer en Java"}),(p12:ABFM_Partie {titre: "Partie 2 Java Orienté Objet"}), (p13:ABFM_Partie {titre: "Partie 3 Java et la programmation évenementielle"})
+MERGE (c04)-[:ABFM_HAS]->(p10)
+MERGE (c04)-[:ABFM_HAS]->(p11)
+MERGE (c04)-[:ABFM_HAS]->(p12)
+MERGE (c04)-[:ABFM_HAS]->(p13)
+-------
+MATCH (c05:ABFM_Cours {titre: "Anatomie"}), (p14:ABFM_Partie {titre: "Partie 1 Bases de la préparation physique à l'entraînement"})
+MERGE (c05)-[:ABFM_HAS]->(p14)
+-------
+MATCH (c06:ABFM_Cours {titre: "Economie d'entreprise"}), (p15:ABFM_Partie {titre: "Partie 1 Introduction à l'économie"})
+MERGE (c06)-[:ABFM_HAS]->(p15)
+-------
+MATCH (c07:ABFM_Cours {titre: "Introduction à la biologie molléculaire"}), (p16:ABFM_Partie {titre: "Partie 1 Les divisions cellulaires"})
+MERGE (c07)-[:ABFM_HAS]->(p16)
+-------
+#################### Partie ~ Chapitre Relation ####################
+-------
+MATCH (c08:ABFM_Partie {titre: "Introduction à l'informatique et à la notion d'algorithmique"}), (p17:ABFM_Chapitre {titre: "Chapitre 1 Installer les outils de développement"}), (p18:ABFM_Chapitre {titre: "Chapitre 2 Créez des variables et des opérateurs"}),(p19:ABFM_Chapitre {titre: "Chapitre 3 Apprenez à lire les entrées clavier"})
+MERGE (c08)-[:ABFM_HAS]->(p17)
+MERGE (c08)-[:ABFM_HAS]->(p18)
+MERGE (c08)-[:ABFM_HAS]->(p19)
+-------
+MATCH (c09:ABFM_Partie {titre: "Partie 1 Bien commencer en Java"}), (p20:ABFM_Chapitre {titre: "Chapitre 1 Créez votre première classe"}), (p21:ABFM_Chapitre {titre: "Chapitre 2 Gérez les héritages"}),(p22:ABFM_Chapitre {titre: "Chapitre 3 Modélisez ses objets grâce à UML"})
+MERGE (c09)-[:ABFM_HAS]->(p20)
+MERGE (c09)-[:ABFM_HAS]->(p21)
+MERGE (c09)-[:ABFM_HAS]->(p22)
+-------
+MATCH (c10:ABFM_Partie {titre: "Partie 2 Java Orienté Objet"}), (p23:ABFM_Chapitre {titre: "Chapitre 1 Créez votre première fenêtre"}), (p24:ABFM_Chapitre {titre: "Chapitre 2 Créez votre propre animation"}),(p25:ABFM_Chapitre {titre: "Chapitre 3 Positionnez des boutons"})
+MERGE (c10)-[:ABFM_HAS]->(p23)
+MERGE (c10)-[:ABFM_HAS]->(p24)
+MERGE (c10)-[:ABFM_HAS]->(p25)
+-------
+MATCH (c11:ABFM_Partie {titre: "Partie 2 Découvrez la Programmation Orientée Objet côté utilisateur"}), (p26:ABFM_Chapitre {titre: "Chapitre 1 Créez votre premier objet : les chaînes de caractères"}), (p27:ABFM_Chapitre {titre: "Chapitre 2 Créez des listes et des tuples (1/2)"})
+MERGE (c11)-[:ABFM_HAS]->(p26)
+MERGE (c11)-[:ABFM_HAS]->(p27)
+-------
+MATCH (c12:ABFM_Partie {titre: "Partie 2 Techniques avancées du langage C"}), (p28:ABFM_Chapitre {titre: "La programmation modulaire"}), (p29:ABFM_Chapitre {titre: "A l'assaut des pointeurs"})
+MERGE (c12)-[:ABFM_HAS]->(p28)
+MERGE (c12)-[:ABFM_HAS]->(p29)
+-------
+MATCH (c13:ABFM_Partie {titre: "Partie 1 Découvrez les bases de HTML5"}), (p30:ABFM_Chapitre {titre: "Chapitre 1 Découvrez le fonctionnement des sites web"}), (p31:ABFM_Chapitre {titre: "Chapitre 2 Créez votre première page web en HTML"})
+MERGE (c13)-[:ABFM_HAS]->(p30)
+MERGE (c13)-[:ABFM_HAS]->(p31)
+-------
+MATCH (c14:ABFM_Partie {titre: "Partie 2 Mettez en forme vos pages avec CSS"}), (p32:ABFM_Chapitre {titre: "Chapitre 1 Mettez en place le CSS"}), (p33:ABFM_Chapitre {titre: "Chapitre 2 Formatez du texte"})
+MERGE (c14)-[:ABFM_HAS]->(p32)
+MERGE (c14)-[:ABFM_HAS]->(p33)
+-------
+MATCH (c15:ABFM_Partie {titre: "Partie 1 Faites vos premiers pas en Python"}), (p34:ABFM_Chapitre {titre: "Chapitre 1 Découvrez Python"}), (p35:ABFM_Chapitre {titre: "Chapitre 2 Faites vos premiers pas avec l'interpréteur de commandes Python"})
+MERGE (c15)-[:ABFM_HAS]->(p34)
+MERGE (c15)-[:ABFM_HAS]->(p35)
+-------
+MATCH (c16:ABFM_Partie {titre: "Partie 1 Les bases de la programmation en C"}), (p36:ABFM_Chapitre {titre: "Vous avez dit programmer ?"}), (p37:ABFM_Chapitre {titre: "Chapitre 2 Ayez les bons outils !"})
+MERGE (c16)-[:ABFM_HAS]->(p36)
+MERGE (c16)-[:ABFM_HAS]->(p37)

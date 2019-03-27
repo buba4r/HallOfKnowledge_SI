@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"AppSI.chapitres"},{"v":2,"unique":true,"key":{"titre":1},"name":"titre_1","ns":"AppSI.chapitres","background":true}],"uuid":"9304875d14574054a917408a5b500215"}
